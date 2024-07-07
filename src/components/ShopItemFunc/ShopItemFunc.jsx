@@ -12,12 +12,15 @@ ShopItemFunc.propTypes = {
 };
 
 export function ShopItemFunc({item}) {
-  const { brand,
+  const {
+    brand,
     title,
     description,
     descriptionFull,
     price,
-    currency } = item;
+    currency
+  } = item;
+
   return (
     <div>
       <h2>{brand}</h2>
